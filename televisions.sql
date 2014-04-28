@@ -8,7 +8,7 @@
 
 
 -- Create a tv_models table
---  The table should have make, model, screen_size, resolution,
+--  The table should have id, make, model, screen_size, resolution,
 --  price, release_date, photo_url
 
 
