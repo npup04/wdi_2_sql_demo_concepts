@@ -16,7 +16,7 @@
 --  and add vertical_resolution and horizontal_resolution columns
 
 
--- Insert 10 televisions into the tv_models table
+-- Insert 4 televisions into the tv_models table
 
 
 -- Select all entries from the tv_models table
