@@ -4,6 +4,7 @@ CREATE DATABASE classroom_demo;
 \c classroom_demo
 
 CREATE TABLE students (
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   gpa NUMERIC(3, 2),
@@ -11,6 +12,7 @@ CREATE TABLE students (
 );
 
 CREATE TABLE teachers (
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   salary MONEY,
