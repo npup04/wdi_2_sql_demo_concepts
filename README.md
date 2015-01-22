@@ -32,7 +32,7 @@ Now we'll need to create a table where we'll keep students. Each student has a f
 ```sql
 
 CREATE TABLE students (
-  id INTEGER PRIMARY KEY,
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   gpa NUMERIC(3, 2),
@@ -47,7 +47,7 @@ Let's create another table called `teachers`. Teachers will have first_name, las
 ```sql
 
 CREATE TABLE teachers (
-  id INTEGER PRIMARY KEY,
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   salary MONEY,
@@ -63,7 +63,7 @@ CREATE DATABASE classroom_demo;
 \c classroom_demo
 
 CREATE TABLE students (
-  id INTEGER PRIMARY KEY,
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   gpa NUMERIC(3, 2),
@@ -71,7 +71,7 @@ CREATE TABLE students (
 );
 
 CREATE TABLE teachers (
-  id INTEGER PRIMARY KEY,
+  id serial PRIMARY KEY,
   first_name TEXT,
   last_name TEXT,
   salary MONEY,
